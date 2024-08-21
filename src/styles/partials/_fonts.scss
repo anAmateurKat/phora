@@ -1,0 +1,17 @@
+@mixin font-faces {
+    @font-face {
+        font-family: "Georgia Pro Regular";
+        src: url("../../../src/assets/fonts/GeorgiaPro-Regular.ttf")
+            format("truetype");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Georgia Pro Bold";
+        src: url("../../../src/assets/fonts/GeorgiaPro-Bold.ttf")
+            format("truetype");
+        font-weight: 600;
+        font-style: normal;
+    }
+}
