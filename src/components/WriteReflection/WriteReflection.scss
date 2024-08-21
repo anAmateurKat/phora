@@ -1,0 +1,28 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.write {
+    padding: 2rem 1rem;
+
+    &__title {
+        color: $primary-text;
+        margin: 1rem 0;
+    }
+
+    &__word-wrapper {
+        background-color: $primary-text;
+        border-radius: 5%;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__form-input {
+        height: 6rem;
+        resize: none;
+    }
+}
