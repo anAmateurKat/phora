@@ -1,0 +1,68 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding: 1rem 1rem;
+    background-color: $primary-footer;
+
+    &__title {
+        color: $primary-text;
+        font-family: $font-bold;
+        padding: 1rem 0;
+    }
+
+    &__text {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    &__icons {
+        display: flex;
+        padding: 0.7rem 0;
+    }
+
+    &__icons-github {
+        height: 30px;
+        width: 30px;
+    }
+
+    &__icons-linkedin {
+        height: 33px;
+        width: 33px;
+        margin-left: 0.5rem;
+    }
+
+    &__about {
+        padding-bottom: 2rem;
+    }
+    &__about-link {
+        height: 4rem;
+        width: 5.5rem;
+        background-color: $primary-footer-link;
+        border-radius: 15%;
+        box-shadow: 10px 10px 3px$primary-button;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $primary-text;
+        font-size: 0.8rem;
+    }
+
+    &__copyright {
+        width: 100%;
+        border-top: 1px solid $primary-text;
+        display: flex;
+        justify-content: center;
+        padding-top: 0.5rem;
+    }
+
+    &__copyright-text {
+        color: $primary-text;
+        font-size: 0.8rem;
+    }
+}
