@@ -8,6 +8,11 @@
     &__title {
         font-family: $font-bold;
         font-size: 3.5rem;
+
+        &:hover {
+            color: $secondary-button;
+            cursor: pointer;
+        }
     }
     &__title-arrow {
         color: $secondary-button;
