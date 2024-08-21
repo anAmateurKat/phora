@@ -10,12 +10,31 @@
     box-sizing: border-box;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+li,
+ul,
+a,
+span,
+section,
+article {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 html {
     background-color: $primary-background;
 }
 
 body {
     font-family: $font-regular;
+    margin: 0;
 }
 
 .app {
